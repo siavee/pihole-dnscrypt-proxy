@@ -1,4 +1,0 @@
-#!/bin/bash
-
-/opt/dnscrypt-proxy/dnscrypt-proxy &
-/s6-init
