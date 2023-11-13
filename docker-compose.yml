@@ -8,8 +8,8 @@ services:
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-      # - "67:67/udp" # uncomment for DHCP server support
-      - "80:80/tcp"
+      # - "67:67/udp"  # uncomment for DHCP server support
+      - "81:80/tcp"  # using port 81 to not conflict with host port 80
     environment:
       TZ: 'Asia/Jakarta'
       DNS1: '127.0.0.1#5300'
